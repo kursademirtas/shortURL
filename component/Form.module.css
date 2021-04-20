@@ -1,0 +1,43 @@
+.wrapper { 
+	display: flex;
+	flex-direction: column;
+}
+
+.form {
+	display: flex;
+	width: 50vw;
+	justify-content: space-between;
+}
+.input {
+	height: 60px;
+	width: 78%;
+	border-radius: 8px;
+	border: #262626 1px solid;
+	font-weight: 500;
+	font-size: 24px;
+	padding: 0 0.8rem;
+
+}
+.input:hover,
+.input:focus { 
+	box-shadow:  20px 20px 60px #bebebe,
+	-20px -20px 60px #ffffff;
+}
+
+.btn {
+	background-color: white;
+	color: #262626;
+	font-weight: 500;
+	font-size: 24px;
+	border: 1px solid #262626;
+	border-radius: 8px;
+	height: 60px;
+	width: 20%;
+	transition: all 0.7s;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #262626;
+	color: white;
+}

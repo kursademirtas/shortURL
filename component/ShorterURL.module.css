@@ -1,0 +1,44 @@
+.container {
+	display: flex;
+	align-items: center;
+	margin-top: 1rem;
+	width: 100%;
+	height: 50px;
+}
+
+.shortUrl { 
+	height: 100%;
+	border: 1px solid hsl(157, 67%, 47%);
+	width: 78%;
+	color: hsl(157, 67%, 47%);
+	font-weight: 300;
+	font-size: 22px;
+	border-radius: 8px;
+	padding: 0 0.5rem;
+	
+}
+
+.btn_copy { 
+	background-color:hsl(157, 67%, 47%);
+	color: white;
+	font-weight: 200;
+	font-size: 22px;
+	border-radius: 8px;
+	height: 100%;
+	border: none;
+	padding: 0 1rem;
+	margin-left: 1rem;
+}
+
+.success {
+	position: absolute;
+	top: 5%;
+	right: 1%;
+	background-color: hsl(157, 67%, 47%);
+	padding: 1rem 4rem;
+	border-radius:4px;
+	color: white;
+	font-weight: 300px;
+	font-size: 22px;
+	transition: all 0.8s;
+}
