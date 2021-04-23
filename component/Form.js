@@ -1,12 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./Form.module.css";
 import ShorterURL from "./ShorterURL";
 import TinyURL from 'tinyurl';
+import useCheckCountry from '../pages/api/useCheckCountry'
+
 
 export const Form = () => {
   const [url, setUrl] = useState("");
   const [shortedUrl, setShortedUrl] = useState('');
   const [loading, setLoading] = useState(false);
+
+  const country = useCheckCountry();
+
+  console.log(country)
+
 
   function handleSubmit(e) {
     e.preventDefault();
